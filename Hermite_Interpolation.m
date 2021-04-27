@@ -19,8 +19,8 @@ N = input("\nEnter the size of data set : ");
 T = table('Size', [N 3], 'VariableTypes', {'double','double','double'});
 T.Properties.VariableNames([1 2 3]) = {'X' 'f(X)' '(d/dx)f(X)'};
 
-fprintf("\n<strong>NOTE: If you want a polynomial of degree <= n,</strong>");
-fprintf("<strong>then input n+1 data points.</strong>");
+fprintf("\n<strong>NOTE: If you want a polynomial of degree <= 2n+1,</strong>");
+fprintf("<strong>then input n data points.</strong>");
 fprintf("\nEnter the data set. e.g. {X1,X2,...} & {f(X1),f(X2),...}.\n\n");
 
 % Input Given Data Set. 
@@ -53,7 +53,7 @@ while l ~= 1
         case 1
             break;
         case 2
-            fprintf("<strong>\n\nINTERPOLATING POLYNOMIAL</strong>")
+            fprintf("<strong>\n\nINTERPOLATING POLYNOMIAL</strong>");
             simplify(H(x))
             pause(1);
         case 3
