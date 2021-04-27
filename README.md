@@ -1,2 +1,2 @@
-# Hermite-Interpolation-
+# Hermite_Interpolation
 Scientific Computing
