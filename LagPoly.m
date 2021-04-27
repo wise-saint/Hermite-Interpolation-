@@ -1,3 +1,9 @@
+Copyright (c) 2021, 9mpd
+All rights reserved.
+
+This source code is licensed under the MIT license found in the
+LICENSE file in the root directory of this source tree.
+
 function Li = LagPoly(T, i, N)
 % A supporting function to Herm_A and Herm_B functions.
     syms x Nr(x)
